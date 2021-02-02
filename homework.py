@@ -24,7 +24,7 @@ number_to = os.getenv('NUMBER_TO')
 
 def get_status(user_id):
     params = {
-        'user_id': user_id,
+        'user_ids': user_id,
         'v': API_V,
         'access_token': token_vk,
         'fields': 'online'
